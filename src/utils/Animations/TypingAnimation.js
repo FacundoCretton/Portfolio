@@ -1,7 +1,7 @@
 // TypingAnimation.js
 import React from 'react';
-import useTypingAnimation from './TypingAnimationLogic';
-import TypingAnimationStyles from './TypingAnimationStyles';
+import useTypingAnimation from './typingAnimationLogic';
+import TypingAnimationStyles from './typingAnimationStyles';
 
 const TypingAnimation = () => {
   const phrases = ['Texto 1111111111111111111111111111', 'Texto 2', 'Texto 3'];

@@ -1,6 +1,6 @@
 import './App.css';
-import AppRoutes from './Routes/route';
-import Sidebar from './Sidebar/Sidebar';
+import AppRoutes from './routes/route';
+import Sidebar from './sidebar/sidebar';
 
 function App() {
   return (

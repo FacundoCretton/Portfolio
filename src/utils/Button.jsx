@@ -1,4 +1,4 @@
-import { StyledButton, StyledIcon } from "./ButtonStyles";
+import { StyledButton, StyledIcon } from "./buttonStyles";
 
 const Button = ({ href, download, children, icon, ...rest }) => {
     return (

@@ -1,9 +1,9 @@
 
 import React from "react";
-import { ButtonsWrapper, PageWrapper } from "./PagesStyles";
-import Button from "../utils/Button";
-import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
-import TypingAnimation from "../utils/Animations/TypingAnimation"
+import { ButtonsWrapper, PageWrapper } from "./pagesStyles";
+import Button from "../utils/button";
+import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
+import TypingAnimation from "../utils/animations/typingAnimation"
 
 
 

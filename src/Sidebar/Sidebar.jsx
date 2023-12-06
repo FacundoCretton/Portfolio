@@ -1,10 +1,10 @@
 import React from "react";
-import { ProfileImage, SidebarNav, SidebarSubTitle, SidebarTitle, SidebarWrapper } from "./SidebarStyles";
-import AboutLink from "../NavLinks/AboutLink";
-import ProjectsLink from "../NavLinks/ProjectsLink";
-import ToolsLink from "../NavLinks/ToolsLink";
-import ContactLink from "../NavLinks/ContactLink";
-import HomeLink from "../NavLinks/HomeLink";
+import { ProfileImage, SidebarNav, SidebarSubTitle, SidebarTitle, SidebarWrapper } from "./sidebarStyles";
+import AboutLink from "../components/navLinks/aboutLink";
+import ProjectsLink from "../components/navLinks/projectsLink";
+import ToolsLink from "../components/navLinks/toolsLink";
+import ContactLink from "../components/navLinks/contactLink";
+import HomeLink from "../components/navLinks/homeLink";
 
 const Sidebar = () =>{
 

@@ -1,6 +1,6 @@
 import React from "react";
-import { PageWrapper } from "./PagesStyles";
-import AboutText from "./AboutPageStyles";
+import { PageWrapper } from "./pagesStyles";
+import AboutText from "./aboutPageStyles";
 
 
 const AboutPage = () =>{

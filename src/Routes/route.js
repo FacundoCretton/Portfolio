@@ -1,10 +1,10 @@
-import AboutPage from "../Pages/AboutPage";
-import ProjectsPage from "../Pages/ProjectsPage";
-import ToolsPage from "../Pages/ToolsPage";
-import ContactPage from "../Pages/ContactPage";
-import Sidebar from "../Sidebar/Sidebar";
+import AboutPage from "../pages/aboutPage";
+import ProjectsPage from "../pages/projectsPage";
+import ToolsPage from "../pages/toolsPage";
+import ContactPage from "../pages/contactPage";
+import Sidebar from "../sidebar/sidebar";
 import { Routes, Route } from "react-router-dom";
-import HomePage from "../Pages/HomePage";
+import HomePage from "../pages/homePage";
 
 function AppRoutes (){
 
