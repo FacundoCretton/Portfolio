@@ -5,7 +5,7 @@ export const SidebarWrapper = styled.div`
     height: 100%;
     width: 250px;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: 0;
     background-color: #000;
@@ -44,58 +44,41 @@ export const SidebarSubTitle = styled.h2`
 
 export const SidebarNav = styled.nav`
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    
-
-
-`
-
-export const UlNav = styled.ul`
-
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px;
-    
-    
-    
-
-
-`
-
-export const LinkNav = styled.li`
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  width: 100%;
-  text-align: center;
-  border-radius: 5px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid #fff;
+  align-items: center;
+  margin-top: 1rem;
 
-  &.activeLink {
-    background-color: aliceblue;
-  }
-
-  a {
-    color: #fff;
-    font-size: 1rem;
+  a{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
     font-weight: bold;
-    text-decoration: none;
-
+    padding: 10px;
+    font-size: 1rem;
     &:hover {
       color: red;
       text-decoration: underline;
     }
-
     &.active {
-      color: #983;
+      color: #000;
+      background: #D3D3D3;
     }
-  }
-`;
+
+
+ 
+
+
+    
+
+
+}`
+
+
+

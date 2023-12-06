@@ -4,6 +4,7 @@ import ToolsPage from "../Pages/ToolsPage";
 import ContactPage from "../Pages/ContactPage";
 import Sidebar from "../Sidebar/Sidebar";
 import { Routes, Route } from "react-router-dom";
+import HomePage from "../Pages/HomePage";
 
 function AppRoutes (){
 
@@ -27,6 +28,7 @@ function Home(){
     return(
         <>
         <Sidebar/>
+        <HomePage/>
     
         </>
     )
